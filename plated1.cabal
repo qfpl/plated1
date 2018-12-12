@@ -4,7 +4,10 @@
 name:                plated1
 version:             0.1.0.0
 synopsis:            Uniplate-style traversals for nested (non-regular) datatypes
--- description:
+description:
+  Uniplate-style traversals for nested (non-regular) datatypes
+
+  This code has been adapted from @lens@'s @Control.Lens.Plated@
 license:             BSD3
 license-file:        LICENSE
 author:              Isaac Elliott
@@ -18,6 +21,5 @@ cabal-version:       >=1.10
 library
   exposed-modules:     Data.Generics.Plated1
   build-depends:       base >=4.11 && <5
-                     , bound
   hs-source-dirs:      src
   default-language:    Haskell2010
