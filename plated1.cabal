@@ -20,18 +20,6 @@ cabal-version:       >=1.10
 
 library
   exposed-modules:     Data.Generics.Plated1
-
-                     , Data.Applicative1
-                     , Data.Contravariant1
-                     , Data.Function1
-                     , Data.Functor1
-                     , Data.Functor1.Compose1
-                     , Data.Functor1.Const1
-                     , Data.Functor1.Identity1
-                     , Data.List1
-                     , Data.Maybe1
-                     , Data.Monad1
-                     , Data.Monoid1
   build-depends:       base >=4.11 && <5
   hs-source-dirs:      src
   default-language:    Haskell2010
